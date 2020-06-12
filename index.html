@@ -5,37 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--  ****  -->
-  <!--  Copy From Here:  -->
-  <!-- Include JQuery for Semantic UI -->
+ 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!-- Include Semantic UI CSS -->
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-  <!-- Include Semantic UI JS -->
-  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-  <!--  To Here  -->
-  <!--  ****  -->
-  <!-- User JS & CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js">
+  </script>
+
   <link rel="stylesheet" href="style.css">
   <script src="index.js"></script>
-  <title>Semantic Starter</title>
+
+  <title>Daryl Project</title>
 </head>
 
 <body>
-  <!-- Header -->
-  <div class="ui container">
+  <div class="ui container" id='box1'>
     <h2 class="ui center aligned icon header">
-      <!-- change 'code' to different icon name: https://semantic-ui.com/elements/icon.html -->
       <i class="circular code icon"></i>
-      <!-- Replace <a></a> with your title to be displayed -->
-      <a target="_blank" href="https://semantic-ui.com/introduction/getting-started.html">Semantic UI </a>Demo
+      <a target="_blank" src="madrid.jpg">Daryl's Project </a>
     </h2>
+    <h3>This is 1st div</h3>
+     
+   <p>Type your details here
+   <br>-now type
+   <br><input type="text" name="input1" id="input1id"/>
+   and
+   <input type="text" name="input2" id="input2id"/>
+   <br><input type="submit" name="calculateButton" id="calc" value="click here"/>
   </div>
-  <!-- End Header -->
 
-  <div class="ui container">
-    <!-- Add Components Here -->
+  <div class="ui container" id='box2'>
+    <h3>This is 2nd div.</h3>
+    Here are some pix:
+    <br>
+    <br>
+    <br>
+    <img src="tokyo.jpg">
+    <br>
+    <br>
+    <br>
+    <img src="paris.jpg">
+    <br>
+    <br>
+    <p><i><b><u>Click on each button below...</p></i></b></u>
+    <br>
+    <div class="ui animated button" tabindex="0"> 
+      <div class="visible content">Class of 2020</div>
+      <div class="hidden content">
+        <i class="left arrow icon"></i>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="ui horizontal animated button" tabindex="0"> 
+      <div class="hidden content">Congrats!</div>
+      <div class="visible content">
+        <i class="Congrats! icon"></i>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="click-me" class="ui animated fade button" tabindex="0"> 
+      <div class="visible content">Lal !!!</div>
+      <div class="hidden content">
+        Yayyy !!!
+      </div>
+    </div>
   </div>
   
 </body>
